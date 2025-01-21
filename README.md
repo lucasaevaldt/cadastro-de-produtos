@@ -2,7 +2,7 @@
 Este é um projeto de um exercício prático de processo seletivo desenvolvido para gerenciar e cadastrar produtos de forma simples e eficiente. O sistema permite ao usuário adicionar, editar e excluir produtos, além de visualizar informações detalhadas como nome, descrição e preço de cada item.
 
 ## Visualize o Projeto
-Você pode visualizar o projeto online através deste link:
+Você pode visualizar o projeto através deste link:
 [**Visualizar o Projeto**](https://lucasaevaldt.github.io/cadastro-de-produtos/)
 
 ## Funcionalidades
