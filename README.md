@@ -1,6 +1,10 @@
 # cadastro-de-produtos
 Este é um projeto de um exercício prático de processo seletivo desenvolvido para gerenciar e cadastrar produtos de forma simples e eficiente. O sistema permite ao usuário adicionar, editar e excluir produtos, além de visualizar informações detalhadas como nome, descrição e preço de cada item.
 
+## Visualize o Projeto
+Você pode visualizar o projeto online através do seguinte link:
+[**Visualizar o Projeto**](https://lucasaevaldt.github.io/cadastro-de-produtos/)
+
 ## Funcionalidades
 
 - **Cadastro de produtos**: O usuário pode adicionar produtos preenchendo um formulário em forma de modal com informações como nome, descrição e preço.
