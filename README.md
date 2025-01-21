@@ -7,7 +7,7 @@ Este é um projeto de um exercício prático de processo seletivo desenvolvido p
 - **Exclusão de produtos**: É possível excluir um produto da lista a qualquer momento, também e possivel limpar a lista com um unico click.
 - **Armazenamento local**: Os produtos cadastrados são armazenados no `localStorage` do navegador, garantindo que os dados sejam persistidos mesmo após o fechamento da página.
 - **Validação de formulário**: O sistema verifica se todos os campos obrigatórios estão preenchidos corretamente antes de permitir o cadastro do produto.
-- **Exibição de produtos**: Os produtos são exibidos em uma tabela, com opções de visualizar nome, descrição, preço e status de disponibilidade para venda.
+- **Exibição de produtos**: Os produtos são exibidos em uma tabela, com opções de visualizar nome, descrição, preço do menor para o maior, status de disponibilidade para venda.
 
 ## Tecnologias Utilizadas
 
