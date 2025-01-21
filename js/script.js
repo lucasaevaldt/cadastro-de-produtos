@@ -1,4 +1,3 @@
-// Array para armazenar e manter os produtos
 let products = JSON.parse(localStorage.getItem('products')) || [];
 
 const modal = document.getElementById('product-modal');
@@ -75,7 +74,6 @@ function updateProductList() {
         return;
     }
 
-    // Ordenar produtos por preço (do menor para o maior)
     products.sort((a, b) => a.price - b.price);
 
     productList.innerHTML = `
@@ -140,5 +138,4 @@ function clearList() {
     }
 }
 
-// Inicializa a lista de produtos
 updateProductList();
