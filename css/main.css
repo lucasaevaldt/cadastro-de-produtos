@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Inter", sans-serif;
+  color: #ABAFBA;
+  font-size: 1.6rem;
+}
+
+html {
+  font-size: 62.5%;
+  background-color: #DFE1E8;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  color: #0A0B0D;
+  font-size: 3.2rem;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  color: #787C87;
+  font-size: 2rem;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.container {
+  width: 100%;
+  max-width: 68rem;
+  padding: 1.5rem 1.5rem;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 6rem;
+}
+
+.header {
+  margin-bottom: 5rem;
+}
+
+.btn-container {
+  margin-bottom: 2rem;
+}
+.btn-container .btn-primary {
+  padding: 0 1.6rem;
+  line-height: 4rem;
+  border: 2px solid transparent;
+  border-radius: 0.4rem;
+  background-color: #0A0B0D;
+  color: #FFF;
+  transition: all 0.2s ease;
+}
+.btn-container .btn-primary:hover {
+  background-color: #393B42;
+}
+.btn-container .btn-primary.clear {
+  background-color: #FFF;
+  color: #0A0B0D;
+  border: 2px solid #0A0B0D;
+}
+.btn-container .btn-primary.clear:hover {
+  background-color: #FF0000;
+  color: #FFF;
+  border: 2px solid transparent;
+}
+
+.empty-list {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #DFE1E8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 5rem;
+}
+.empty-list img {
+  max-width: 10rem;
+  margin-bottom: 2rem;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(10, 11, 13, 0.7);
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+}
+.modal.active {
+  display: flex;
+}
+
+.modal-content {
+  background-color: #FFF;
+  padding: 3.2rem;
+  border-radius: 0.8rem;
+  position: relative;
+  width: 100%;
+  max-width: 52rem;
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.modal-content h3 {
+  color: #393B42;
+}
+.modal-content .form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.7rem;
+}
+.modal-content .form-group input {
+  padding: 0.6rem;
+  border-radius: 0.4rem;
+}
+.modal-content .form-group .btn-radio {
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: start;
+  gap: 1.5rem;
+}
+.modal-content .btn-container-modal {
+  margin-top: 2rem;
+}
+.modal-content .btn-modal {
+  padding: 0 1.6rem;
+  line-height: 4rem;
+  border: 2px solid transparent;
+  border-radius: 0.4rem;
+  background-color: #0A0B0D;
+  color: #FFF;
+  transition: all 0.2s ease;
+}
+.modal-content .btn-modal:hover {
+  background-color: #393B42;
+}
+.modal-content .btn-modal.clear {
+  background-color: #FFF;
+  color: #0A0B0D;
+  border: 2px solid #0A0B0D;
+}
+.modal-content .btn-modal.clear:hover {
+  background-color: #FF0000;
+  color: #FFF;
+  border: 2px solid transparent;
+}
+
+.close-modal {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  font-size: 2.4rem;
+  color: #787C87;
+  transition: color 0.2s ease;
+}
+.close-modal:hover {
+  color: #0A0B0D;
+}
+
+/* Estilos para tabela de produtos */
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+.product-table th {
+  text-align: left;
+  padding: 12px;
+  background-color: #DFE1E8;
+  border-bottom: 2px solid #979BA6;
+  color: #5C5F69;
+}
+.product-table td {
+  padding: 12px;
+  border-bottom: 1px solid #DFE1E8;
+}
+
+.product-info h4 {
+  max-width: 29rem;
+  color: #393B42;
+  margin: 0 0 8px 0;
+  overflow-wrap: break-word;
+}
+.product-info p {
+  max-width: 29rem;
+  overflow-wrap: break-word;
+}
+
+.product-description {
+  color: #ABAFBA;
+  margin: 0;
+}
+
+.price-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.price-actions span {
+  color: #393B42;
+  font-weight: bold;
+}
+.price-actions button svg {
+  transition: all 0.2s ease;
+}
+.price-actions button svg:hover {
+  stroke: #FF0000;
+}
+
+.error {
+  border: 2px solid #FF0000;
+}
+
+.error-message {
+  color: #FF0000;
+  font-size: 1.4rem;
+  margin-top: 0.5rem;
+}/*# sourceMappingURL=main.css.map */

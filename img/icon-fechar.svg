@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="200" height="200">
+  <!-- Linha diagonal 1 do X -->
+  <line x1="30" y1="30" x2="70" y2="70" stroke="#979BA6" stroke-width="5" stroke-linecap="round" />
+  <!-- Linha diagonal 2 do X -->
+  <line x1="70" y1="30" x2="30" y2="70" stroke="#979BA6" stroke-width="5" stroke-linecap="round" />
+</svg>
